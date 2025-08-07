@@ -42,8 +42,9 @@ nodejs-demo/
     ├── env/              # 环境管理API
     ├── group/            # 分组管理API
     └── proxy/            # 代理管理API
-```
 
+
+    
 ## API模块
 
 ### 1. 浏览器管理模块 (`/api/v2/env/`)
