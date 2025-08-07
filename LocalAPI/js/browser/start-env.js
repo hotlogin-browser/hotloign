@@ -1,0 +1,21 @@
+const axios = require('axios');
+
+const envId = '181';
+
+const config = {
+  method: 'post',
+  url: 'http://localhost:60000/api/v2/env/start',
+  headers: { },
+  data: {
+    id: envId,
+    openIpTab: 1
+  }
+};
+
+axios(config)
+.then((response) => {
+  console.log(JSON.stringify(response.data));
+})
+.catch((error) => {
+  console.log(error);
+});
