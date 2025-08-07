@@ -2,19 +2,21 @@
 
 这个项目包含了火云浏览器API的完整示例，支持多种编程语言和工具。
 
-##用途 
+## 用途 
 - 账户配置
 - 浏览器控制
 - 自动化操作
 
-##特点
+## 特点
 - 支持Selenium和Puppeteer集成
 - 访问频率限制：1请求/秒
 - 需要AdsPower团队协作版本
 - 支持无界面api-key模式
 
-## 结构
-nodejs-demo/
+## 项目结构
+
+```
+LocalAPI/
 ├── js/                    # JavaScript示例
 │   ├── browser/          # 浏览器管理API
 │   │   ├── api-status.js        # API状态检查
@@ -42,9 +44,9 @@ nodejs-demo/
     ├── env/              # 环境管理API
     ├── group/            # 分组管理API
     └── proxy/            # 代理管理API
+```
+```
 
-
-    
 ## API模块
 
 ### 1. 浏览器管理模块 (`/api/v2/env/`)
@@ -82,7 +84,7 @@ nodejs-demo/
 - **更新代理**: `POST /api/v2/proxy/update`
 - **获取代理列表**: `POST /api/v2/proxy/list`
 
-## 4. 快速开始
+## 快速开始
 所有示例文件中的API地址配置：
 - **默认地址**: `http://localhost:60000/api/v2`
 实际地址以app地址为主
@@ -97,5 +99,4 @@ nodejs-demo/
 
 
 
-更多详细信息请到  
-https://hotlogin.yuque.com/huzv5rki1ozw api文档
+更多详细信息请访问：[火云浏览器API文档](https://hotlogin.yuque.com/huzv5rki1ozw)
