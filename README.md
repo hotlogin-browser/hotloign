@@ -10,7 +10,6 @@
 ## 特点
 - 支持Selenium和Puppeteer集成
 - 访问频率限制：1请求/秒
-- 需要AdsPower团队协作版本
 - 支持无界面api-key模式
 
 ## 项目结构
